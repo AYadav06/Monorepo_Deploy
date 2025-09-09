@@ -1,8 +1,6 @@
-# Turborepo starter
+## Monorepo Deployment using docker 
 
-This Turborepo starter is maintained by the Turborepo core team.
-
-## Using this example
+## TODO App Example 
 
 Run the following command:
 
@@ -16,12 +14,12 @@ This Turborepo includes the following packages/apps:
 
 ### Apps and Packages
 
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
+- `backend`: nodejs backend  [Node.js] using bun  app
+- `web`: [Next.js](https://nextjs.org/) app
 - `@repo/ui`: a stub React component library shared by both `web` and `docs` applications
 - `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
 - `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
-
+- `@repo/db`: `a prisma client configuration`
 Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
 
 ### Utilities

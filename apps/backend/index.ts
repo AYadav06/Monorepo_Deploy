@@ -32,5 +32,5 @@ prismaClient.user.create({
 
 })
 app.listen(8080,()=>{
-    console.log("server is running on 30001");
+    console.log("server is running on 8080");
 })

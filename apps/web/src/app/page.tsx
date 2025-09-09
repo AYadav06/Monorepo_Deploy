@@ -8,3 +8,8 @@ const users = await prismaClient.user.findMany();
     </div>
   );
 }
+
+// use to not generate the static page   INCREMENTAL STATIC GENERATION 
+// export const revalidate=60;  //revalidate in 60 sec
+//or 
+export const dynamic='force-dynamic'
